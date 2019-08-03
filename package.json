@@ -1,6 +1,6 @@
 {
   "name": "react-mock-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mock element for capturing props in tests",
   "files": [
     "index.js",

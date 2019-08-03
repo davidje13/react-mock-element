@@ -12,7 +12,7 @@ mock. This should not be used to mock every child component.
 ## Install dependency
 
 ```bash
-npm install --save-dev git+https://github.com/davidje13/react-mock-element.git#semver:^1.0.0
+npm install --save-dev git+https://github.com/davidje13/react-mock-element.git#semver:^1.0.1
 ```
 
 ## Usage with react-testing-library + Jest
