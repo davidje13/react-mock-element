@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "mock element for capturing props in tests",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "eslint --format codeframe --ext mjs,js .",
     "test": "jest && npm run lint",
