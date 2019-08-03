@@ -1,6 +1,6 @@
 const mockElement = require('../index');
 const React = require('react');
-const {render, fireEvent, cleanup} = require('react-testing-library');
+const {render, fireEvent, cleanup} = require('@testing-library/react');
 const MockableComponent = require('./MockableComponent');
 
 jest.mock('./MockableComponent', () => mockElement('mock-module'));
