@@ -26,10 +26,10 @@
   "homepage": "https://github.com/davidje13/react-mock-element#readme",
   "devDependencies": {
     "@testing-library/react": "10.x",
-    "eslint": "6.x",
+    "eslint": "7.x",
     "eslint-plugin-jest": "23.x",
     "eslint-plugin-node": "11.x",
-    "jest": "25.x",
+    "jest": "26.x",
     "react": "16.x",
     "react-dom": "16.x"
   },
