@@ -1,6 +1,6 @@
 {
   "name": "react-mock-element",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "mock element for capturing props in tests",
   "files": [
     "index.js",
@@ -10,14 +10,18 @@
   "types": "index.d.ts",
   "scripts": {
     "lint": "eslint --format codeframe --ext mjs,js .",
-    "test": "jest && npm run lint",
+    "test": "jest",
+    "posttest": "npm run lint",
     "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidje13/react-mock-element.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "test"
+  ],
   "author": "David Evans",
   "license": "MIT",
   "bugs": {
